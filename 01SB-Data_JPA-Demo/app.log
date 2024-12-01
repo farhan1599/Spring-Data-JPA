@@ -1,0 +1,189 @@
+2024-11-30T00:19:30.522+05:30  INFO 3656 --- [01SB-Data_JPA-Demo] [main] com.springboot.jpa.Application           : Starting Application using Java 17.0.10 with PID 3656 (E:\52-SpringBoot-Data_JPA\01SB-Data_JPA-Demo\target\classes started by DELL in E:\52-SpringBoot-Data_JPA\01SB-Data_JPA-Demo)
+2024-11-30T00:19:30.531+05:30  INFO 3656 --- [01SB-Data_JPA-Demo] [main] com.springboot.jpa.Application           : No active profile set, falling back to 1 default profile: "default"
+2024-11-30T00:19:32.115+05:30  INFO 3656 --- [01SB-Data_JPA-Demo] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-30T00:19:32.585+05:30  INFO 3656 --- [01SB-Data_JPA-Demo] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 435 ms. Found 1 JPA repository interface.
+2024-11-30T00:19:33.455+05:30  INFO 3656 --- [01SB-Data_JPA-Demo] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-11-30T00:19:33.594+05:30  INFO 3656 --- [01SB-Data_JPA-Demo] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.2.Final
+2024-11-30T00:19:33.672+05:30  INFO 3656 --- [01SB-Data_JPA-Demo] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-11-30T00:19:34.368+05:30  INFO 3656 --- [01SB-Data_JPA-Demo] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-11-30T00:19:34.556+05:30  INFO 3656 --- [01SB-Data_JPA-Demo] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-11-30T00:19:35.643+05:30  INFO 3656 --- [01SB-Data_JPA-Demo] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@72b2c5ed
+2024-11-30T00:19:35.648+05:30  INFO 3656 --- [01SB-Data_JPA-Demo] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-11-30T00:19:35.905+05:30  INFO 3656 --- [01SB-Data_JPA-Demo] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.39
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2024-11-30T00:19:37.819+05:30  INFO 3656 --- [01SB-Data_JPA-Demo] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-11-30T00:19:38.004+05:30  INFO 3656 --- [01SB-Data_JPA-Demo] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-11-30T00:19:38.704+05:30  INFO 3656 --- [01SB-Data_JPA-Demo] [main] com.springboot.jpa.Application           : Started Application in 9.336 seconds (process running for 11.32)
+2024-11-30T00:19:38.713+05:30  INFO 3656 --- [01SB-Data_JPA-Demo] [main] com.springboot.jpa.Application           : run method startedd...
+2024-11-30T00:19:38.969+05:30  INFO 3656 --- [01SB-Data_JPA-Demo] [main] com.springboot.jpa.Application           : run method ended...
+2024-11-30T00:19:38.978+05:30  INFO 3656 --- [01SB-Data_JPA-Demo] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-11-30T00:19:38.984+05:30  INFO 3656 --- [01SB-Data_JPA-Demo] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-11-30T00:19:39.011+05:30  INFO 3656 --- [01SB-Data_JPA-Demo] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-11-30T00:21:37.302+05:30  INFO 2324 --- [01SB-Data_JPA-Demo] [main] com.springboot.jpa.Application           : Starting Application using Java 17.0.10 with PID 2324 (E:\52-SpringBoot-Data_JPA\01SB-Data_JPA-Demo\target\classes started by DELL in E:\52-SpringBoot-Data_JPA\01SB-Data_JPA-Demo)
+2024-11-30T00:21:37.327+05:30  INFO 2324 --- [01SB-Data_JPA-Demo] [main] com.springboot.jpa.Application           : No active profile set, falling back to 1 default profile: "default"
+2024-11-30T00:21:38.878+05:30  INFO 2324 --- [01SB-Data_JPA-Demo] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-30T00:21:38.984+05:30  INFO 2324 --- [01SB-Data_JPA-Demo] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 86 ms. Found 1 JPA repository interface.
+2024-11-30T00:21:39.625+05:30  INFO 2324 --- [01SB-Data_JPA-Demo] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-11-30T00:21:39.763+05:30  INFO 2324 --- [01SB-Data_JPA-Demo] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.2.Final
+2024-11-30T00:21:39.843+05:30  INFO 2324 --- [01SB-Data_JPA-Demo] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-11-30T00:21:40.492+05:30  INFO 2324 --- [01SB-Data_JPA-Demo] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-11-30T00:21:40.569+05:30  INFO 2324 --- [01SB-Data_JPA-Demo] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-11-30T00:21:42.002+05:30  INFO 2324 --- [01SB-Data_JPA-Demo] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6b832551
+2024-11-30T00:21:42.006+05:30  INFO 2324 --- [01SB-Data_JPA-Demo] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-11-30T00:21:42.227+05:30  INFO 2324 --- [01SB-Data_JPA-Demo] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.39
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2024-11-30T00:21:44.144+05:30  INFO 2324 --- [01SB-Data_JPA-Demo] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-11-30T00:21:44.266+05:30  INFO 2324 --- [01SB-Data_JPA-Demo] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-11-30T00:21:44.880+05:30  INFO 2324 --- [01SB-Data_JPA-Demo] [main] com.springboot.jpa.Application           : Started Application in 9.027 seconds (process running for 10.558)
+2024-11-30T00:21:44.886+05:30  INFO 2324 --- [01SB-Data_JPA-Demo] [main] com.springboot.jpa.Application           : run method startedd...
+2024-11-30T00:21:45.133+05:30  INFO 2324 --- [01SB-Data_JPA-Demo] [main] com.springboot.jpa.Application           : run method ended...
+2024-11-30T00:21:45.142+05:30  INFO 2324 --- [01SB-Data_JPA-Demo] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-11-30T00:21:45.148+05:30  INFO 2324 --- [01SB-Data_JPA-Demo] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-11-30T00:21:45.172+05:30  INFO 2324 --- [01SB-Data_JPA-Demo] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-11-30T00:58:19.043+05:30  INFO 2176 --- [01SB-Data_JPA-Demo] [main] com.springboot.jpa.Application           : Starting Application using Java 17.0.10 with PID 2176 (E:\52-SpringBoot-Data_JPA\01SB-Data_JPA-Demo\target\classes started by DELL in E:\52-SpringBoot-Data_JPA\01SB-Data_JPA-Demo)
+2024-11-30T00:58:19.081+05:30  INFO 2176 --- [01SB-Data_JPA-Demo] [main] com.springboot.jpa.Application           : No active profile set, falling back to 1 default profile: "default"
+2024-11-30T00:58:20.312+05:30  INFO 2176 --- [01SB-Data_JPA-Demo] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-30T00:58:20.419+05:30  INFO 2176 --- [01SB-Data_JPA-Demo] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 87 ms. Found 1 JPA repository interface.
+2024-11-30T00:58:21.092+05:30  INFO 2176 --- [01SB-Data_JPA-Demo] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-11-30T00:58:21.237+05:30  INFO 2176 --- [01SB-Data_JPA-Demo] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.2.Final
+2024-11-30T00:58:21.335+05:30  INFO 2176 --- [01SB-Data_JPA-Demo] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-11-30T00:58:22.036+05:30  INFO 2176 --- [01SB-Data_JPA-Demo] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-11-30T00:58:22.173+05:30  INFO 2176 --- [01SB-Data_JPA-Demo] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-11-30T00:58:23.020+05:30  INFO 2176 --- [01SB-Data_JPA-Demo] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1600a8a2
+2024-11-30T00:58:23.025+05:30  INFO 2176 --- [01SB-Data_JPA-Demo] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-11-30T00:58:23.270+05:30  INFO 2176 --- [01SB-Data_JPA-Demo] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.39
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2024-11-30T00:58:25.265+05:30  INFO 2176 --- [01SB-Data_JPA-Demo] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-11-30T00:58:25.480+05:30  INFO 2176 --- [01SB-Data_JPA-Demo] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-11-30T00:58:26.611+05:30  INFO 2176 --- [01SB-Data_JPA-Demo] [main] com.springboot.jpa.Application           : Started Application in 8.509 seconds (process running for 10.368)
+2024-11-30T00:58:26.617+05:30  INFO 2176 --- [01SB-Data_JPA-Demo] [main] com.springboot.jpa.Application           : run method startedd...
+2024-11-30T00:58:26.944+05:30  INFO 2176 --- [01SB-Data_JPA-Demo] [main] com.springboot.jpa.Application           : run method ended...
+2024-11-30T00:58:26.951+05:30  INFO 2176 --- [01SB-Data_JPA-Demo] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-11-30T00:58:26.956+05:30  INFO 2176 --- [01SB-Data_JPA-Demo] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-11-30T00:58:26.983+05:30  INFO 2176 --- [01SB-Data_JPA-Demo] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-11-30T01:02:06.323+05:30  INFO 3800 --- [01SB-Data_JPA-Demo] [main] com.springboot.jpa.Application           : Starting Application using Java 17.0.10 with PID 3800 (E:\52-SpringBoot-Data_JPA\01SB-Data_JPA-Demo\target\classes started by DELL in E:\52-SpringBoot-Data_JPA\01SB-Data_JPA-Demo)
+2024-11-30T01:02:06.354+05:30  INFO 3800 --- [01SB-Data_JPA-Demo] [main] com.springboot.jpa.Application           : No active profile set, falling back to 1 default profile: "default"
+2024-11-30T01:02:10.519+05:30  INFO 3800 --- [01SB-Data_JPA-Demo] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-30T01:02:10.695+05:30  INFO 3800 --- [01SB-Data_JPA-Demo] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 114 ms. Found 1 JPA repository interface.
+2024-11-30T01:02:11.976+05:30  INFO 3800 --- [01SB-Data_JPA-Demo] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-11-30T01:02:12.313+05:30  INFO 3800 --- [01SB-Data_JPA-Demo] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.2.Final
+2024-11-30T01:02:12.469+05:30  INFO 3800 --- [01SB-Data_JPA-Demo] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-11-30T01:02:13.730+05:30  INFO 3800 --- [01SB-Data_JPA-Demo] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-11-30T01:02:13.841+05:30  INFO 3800 --- [01SB-Data_JPA-Demo] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-11-30T01:02:15.264+05:30  INFO 3800 --- [01SB-Data_JPA-Demo] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@727986ad
+2024-11-30T01:02:15.270+05:30  INFO 3800 --- [01SB-Data_JPA-Demo] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-11-30T01:02:15.699+05:30  INFO 3800 --- [01SB-Data_JPA-Demo] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.39
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2024-11-30T01:02:19.432+05:30  INFO 3800 --- [01SB-Data_JPA-Demo] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-11-30T01:02:19.781+05:30  INFO 3800 --- [01SB-Data_JPA-Demo] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-11-30T01:02:21.975+05:30  INFO 3800 --- [01SB-Data_JPA-Demo] [main] com.springboot.jpa.Application           : Started Application in 16.828 seconds (process running for 20.199)
+2024-11-30T01:02:22.007+05:30  INFO 3800 --- [01SB-Data_JPA-Demo] [main] com.springboot.jpa.Application           : run method startedd...
+2024-11-30T01:02:22.529+05:30  INFO 3800 --- [01SB-Data_JPA-Demo] [main] com.springboot.jpa.Application           : run method ended...
+2024-11-30T01:02:22.558+05:30  INFO 3800 --- [01SB-Data_JPA-Demo] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-11-30T01:02:22.565+05:30  INFO 3800 --- [01SB-Data_JPA-Demo] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-11-30T01:02:22.592+05:30  INFO 3800 --- [01SB-Data_JPA-Demo] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-11-30T01:04:58.815+05:30  INFO 11800 --- [01SB-Data_JPA-Demo] [main] com.springboot.jpa.Application           : Starting Application using Java 17.0.10 with PID 11800 (E:\52-SpringBoot-Data_JPA\01SB-Data_JPA-Demo\target\classes started by DELL in E:\52-SpringBoot-Data_JPA\01SB-Data_JPA-Demo)
+2024-11-30T01:04:58.846+05:30  INFO 11800 --- [01SB-Data_JPA-Demo] [main] com.springboot.jpa.Application           : No active profile set, falling back to 1 default profile: "default"
+2024-11-30T01:05:04.401+05:30  INFO 11800 --- [01SB-Data_JPA-Demo] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-30T01:05:04.876+05:30  INFO 11800 --- [01SB-Data_JPA-Demo] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 426 ms. Found 1 JPA repository interface.
+2024-11-30T01:05:06.773+05:30  INFO 11800 --- [01SB-Data_JPA-Demo] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-11-30T01:05:07.211+05:30  INFO 11800 --- [01SB-Data_JPA-Demo] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.2.Final
+2024-11-30T01:05:07.401+05:30  INFO 11800 --- [01SB-Data_JPA-Demo] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-11-30T01:05:09.104+05:30  INFO 11800 --- [01SB-Data_JPA-Demo] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-11-30T01:05:09.279+05:30  INFO 11800 --- [01SB-Data_JPA-Demo] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-11-30T01:05:12.099+05:30  INFO 11800 --- [01SB-Data_JPA-Demo] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7b5ac347
+2024-11-30T01:05:12.105+05:30  INFO 11800 --- [01SB-Data_JPA-Demo] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-11-30T01:05:12.661+05:30  INFO 11800 --- [01SB-Data_JPA-Demo] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.39
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2024-11-30T01:05:16.392+05:30  INFO 11800 --- [01SB-Data_JPA-Demo] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-11-30T01:05:16.593+05:30  INFO 11800 --- [01SB-Data_JPA-Demo] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-11-30T01:05:17.804+05:30  INFO 11800 --- [01SB-Data_JPA-Demo] [main] com.springboot.jpa.Application           : Started Application in 22.008 seconds (process running for 26.427)
+2024-11-30T01:05:17.813+05:30  INFO 11800 --- [01SB-Data_JPA-Demo] [main] com.springboot.jpa.Application           : run method startedd...
+2024-11-30T01:05:18.191+05:30  INFO 11800 --- [01SB-Data_JPA-Demo] [main] com.springboot.jpa.Application           : run method ended...
+2024-11-30T01:05:18.251+05:30  INFO 11800 --- [01SB-Data_JPA-Demo] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-11-30T01:05:18.257+05:30  INFO 11800 --- [01SB-Data_JPA-Demo] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-11-30T01:05:18.296+05:30  INFO 11800 --- [01SB-Data_JPA-Demo] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-11-30T01:07:55.869+05:30  INFO 13932 --- [01SB-Data_JPA-Demo] [main] com.springboot.jpa.Application           : Starting Application using Java 17.0.10 with PID 13932 (E:\52-SpringBoot-Data_JPA\01SB-Data_JPA-Demo\target\classes started by DELL in E:\52-SpringBoot-Data_JPA\01SB-Data_JPA-Demo)
+2024-11-30T01:07:55.943+05:30  INFO 13932 --- [01SB-Data_JPA-Demo] [main] com.springboot.jpa.Application           : No active profile set, falling back to 1 default profile: "default"
+2024-11-30T01:07:58.152+05:30  INFO 13932 --- [01SB-Data_JPA-Demo] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-30T01:07:58.507+05:30  INFO 13932 --- [01SB-Data_JPA-Demo] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 287 ms. Found 1 JPA repository interface.
+2024-11-30T01:08:00.476+05:30  INFO 13932 --- [01SB-Data_JPA-Demo] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-11-30T01:08:00.930+05:30  INFO 13932 --- [01SB-Data_JPA-Demo] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.2.Final
+2024-11-30T01:08:01.144+05:30  INFO 13932 --- [01SB-Data_JPA-Demo] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-11-30T01:08:04.025+05:30  INFO 13932 --- [01SB-Data_JPA-Demo] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-11-30T01:08:04.211+05:30  INFO 13932 --- [01SB-Data_JPA-Demo] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-11-30T01:08:06.313+05:30  INFO 13932 --- [01SB-Data_JPA-Demo] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6b25ef1c
+2024-11-30T01:08:06.320+05:30  INFO 13932 --- [01SB-Data_JPA-Demo] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-11-30T01:08:07.162+05:30  INFO 13932 --- [01SB-Data_JPA-Demo] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.39
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2024-11-30T01:08:13.217+05:30  INFO 13932 --- [01SB-Data_JPA-Demo] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-11-30T01:08:13.573+05:30  INFO 13932 --- [01SB-Data_JPA-Demo] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-11-30T01:08:16.016+05:30  INFO 13932 --- [01SB-Data_JPA-Demo] [main] com.springboot.jpa.Application           : Started Application in 21.997 seconds (process running for 29.578)
+2024-11-30T01:08:16.046+05:30  INFO 13932 --- [01SB-Data_JPA-Demo] [main] com.springboot.jpa.Application           : run method startedd...
+2024-11-30T01:08:17.099+05:30  INFO 13932 --- [01SB-Data_JPA-Demo] [main] com.springboot.jpa.Application           : run method ended...
+2024-11-30T01:08:17.130+05:30  INFO 13932 --- [01SB-Data_JPA-Demo] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-11-30T01:08:17.140+05:30  INFO 13932 --- [01SB-Data_JPA-Demo] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-11-30T01:08:17.229+05:30  INFO 13932 --- [01SB-Data_JPA-Demo] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-11-30T01:10:21.621+05:30  INFO 12996 --- [01SB-Data_JPA-Demo] [main] com.springboot.jpa.Application           : Starting Application using Java 17.0.10 with PID 12996 (E:\52-SpringBoot-Data_JPA\01SB-Data_JPA-Demo\target\classes started by DELL in E:\52-SpringBoot-Data_JPA\01SB-Data_JPA-Demo)
+2024-11-30T01:10:21.656+05:30  INFO 12996 --- [01SB-Data_JPA-Demo] [main] com.springboot.jpa.Application           : No active profile set, falling back to 1 default profile: "default"
+2024-11-30T01:10:24.378+05:30  INFO 12996 --- [01SB-Data_JPA-Demo] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-30T01:10:24.888+05:30  INFO 12996 --- [01SB-Data_JPA-Demo] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 400 ms. Found 1 JPA repository interface.
+2024-11-30T01:10:26.820+05:30  INFO 12996 --- [01SB-Data_JPA-Demo] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-11-30T01:10:27.096+05:30  INFO 12996 --- [01SB-Data_JPA-Demo] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.2.Final
+2024-11-30T01:10:27.288+05:30  INFO 12996 --- [01SB-Data_JPA-Demo] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-11-30T01:10:29.345+05:30  INFO 12996 --- [01SB-Data_JPA-Demo] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-11-30T01:10:29.732+05:30  INFO 12996 --- [01SB-Data_JPA-Demo] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-11-30T01:10:32.671+05:30  INFO 12996 --- [01SB-Data_JPA-Demo] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@611c3eae
+2024-11-30T01:10:32.677+05:30  INFO 12996 --- [01SB-Data_JPA-Demo] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-11-30T01:10:33.077+05:30  INFO 12996 --- [01SB-Data_JPA-Demo] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.39
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2024-11-30T01:10:38.238+05:30  INFO 12996 --- [01SB-Data_JPA-Demo] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-11-30T01:10:38.505+05:30  INFO 12996 --- [01SB-Data_JPA-Demo] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-11-30T01:10:40.987+05:30  INFO 12996 --- [01SB-Data_JPA-Demo] [main] com.springboot.jpa.Application           : Started Application in 22.177 seconds (process running for 28.883)
+2024-11-30T01:10:41.003+05:30  INFO 12996 --- [01SB-Data_JPA-Demo] [main] com.springboot.jpa.Application           : run method startedd...
+2024-11-30T01:10:41.349+05:30  INFO 12996 --- [01SB-Data_JPA-Demo] [main] com.springboot.jpa.Application           : run method ended...
+2024-11-30T01:10:41.436+05:30  INFO 12996 --- [01SB-Data_JPA-Demo] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-11-30T01:10:41.443+05:30  INFO 12996 --- [01SB-Data_JPA-Demo] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-11-30T01:10:41.507+05:30  INFO 12996 --- [01SB-Data_JPA-Demo] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
