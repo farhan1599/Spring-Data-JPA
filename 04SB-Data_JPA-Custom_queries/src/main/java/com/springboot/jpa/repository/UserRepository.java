@@ -24,7 +24,7 @@ public interface UserRepository extends CrudRepository<User, Integer> {
 //	@Modifying // :Marks the query as modifying the database (update, delete,insert).
 //	@Transactional // :Ensures the query is executed within a transaction.
 //	@Query("insert into User (id,name,gender,country) values(:id,:name,:gender,:country)")
-//
+//	public void saveUsers(Integer id, String name, String gender, String country);
 
 	// ==========to update a record using custom query (HQL)============
 	@Modifying
