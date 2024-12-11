@@ -13,6 +13,10 @@ import lombok.Getter;
 import lombok.Setter;
 import lombok.ToString;
 
+/*=================@OneToOne=====================
+ *  Passport -----------------------> Person
+ */
+
 /*Either we can write "personId" in passport_tbl or "passportId" in person_tbl
  * as foreign key because its @OneToOne relationship
  */

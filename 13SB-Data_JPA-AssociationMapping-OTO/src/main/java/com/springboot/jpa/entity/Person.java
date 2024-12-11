@@ -9,6 +9,10 @@ import lombok.Getter;
 import lombok.Setter;
 import lombok.ToString;
 
+/*=================@OneToOne=====================
+ * Person -----------------------> Passport
+ */
+
 @Entity
 @Getter
 @Setter
