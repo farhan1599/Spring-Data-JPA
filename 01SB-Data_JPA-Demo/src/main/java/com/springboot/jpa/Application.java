@@ -7,7 +7,6 @@ import org.springframework.context.ConfigurableApplicationContext;
 import com.springboot.jpa.entity.Student;
 import com.springboot.jpa.repo.StudentRepository;
 
-import lombok.extern.slf4j.Slf4j;
 
 @SpringBootApplication
 public class Application {
